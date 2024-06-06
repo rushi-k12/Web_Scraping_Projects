@@ -40,6 +40,8 @@ Welcome to my Web Scraping Projects repository. This repository contains various
 │   ├── scrapy.cfg
 │   └── output.csv
 │
+
+
 ├── cars/
 │   ├── cars/
 │   │   ├── __init__.py
@@ -53,6 +55,8 @@ Welcome to my Web Scraping Projects repository. This repository contains various
 │   ├── scrapy.cfg
 │   └── output.csv
 │
+
+
 ├── crypto/
 │   ├── crypto/
 │   │   ├── __init__.py
