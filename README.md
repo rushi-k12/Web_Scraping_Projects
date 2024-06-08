@@ -48,6 +48,9 @@ Welcome to my Web Scraping Projects repository. This repository contains various
 │   │       └── amazon_spider.py
 │   ├── scrapy.cfg
 │   └── output.csv
+
+
+
 ├── cars/
 │   ├── cars/
 │   │   ├── __init__.py
@@ -60,6 +63,9 @@ Welcome to my Web Scraping Projects repository. This repository contains various
 │   │       └── cars_spider.py
 │   ├── scrapy.cfg
 │   └── output.csv
+
+
+
 ├── crypto/
 │   ├── crypto/
 │   │   ├── __init__.py
@@ -72,6 +78,9 @@ Welcome to my Web Scraping Projects repository. This repository contains various
 │   │       └── crypto_spider.py
 │   ├── scrapy.cfg
 │   └── output.csv
+
+
+
 ├── weather_info/
 │   ├── weather_info/
 │   │   ├── __init__.py
