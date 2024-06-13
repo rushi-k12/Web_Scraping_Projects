@@ -13,20 +13,29 @@ Welcome to my Web Scraping Projects repository. This repository contains various
 
 ## Projects
 
-1. **Crypto Prices Scraper**
-   - Scrapes cryptocurrency prices from [crypto.com](https://crypto.com/price).
-   - Saves data including name, price, 24-hour change, 24-hour volume, and market cap.
+### Crypto Prices Scraper
 
-2. **Amazon Product Scraper**
-   - Scrapes product details from Amazon.
-   - Saves data including product name, price, rating, and reviews.
+- Scrapes cryptocurrency prices from crypto.com.
+- Saves data including name, price, 24-hour change, 24-hour volume, and market cap.
 
-3. **Cars Listing Scraper**
-   - Scrapes car listings from various car dealer websites.
-   - Saves data including car model, price, year, and mileage.
+### Amazon Product Scraper
+
+- Scrapes product details from Amazon.
+- Saves data including product name, price, rating, and reviews.
+
+### Cars Listing Scraper
+
+- Scrapes car listings from various car dealer websites.
+- Saves data including car model, price, year, and mileage.
+
+### Weather Information Scraper
+
+- Scrapes weather information of all Indian cities from timeanddate.com.
+- Saves data including city name, temperature, humidity, wind speed, and weather condition.
+
 
 ## web_scraping_projects Structure
-│
+.
 ├── amazon/
 │   ├── amazon/
 │   │   ├── __init__.py
@@ -39,7 +48,7 @@ Welcome to my Web Scraping Projects repository. This repository contains various
 │   │       └── amazon_spider.py
 │   ├── scrapy.cfg
 │   └── output.csv
-│
+
 
 
 ├── cars/
@@ -54,7 +63,7 @@ Welcome to my Web Scraping Projects repository. This repository contains various
 │   │       └── cars_spider.py
 │   ├── scrapy.cfg
 │   └── output.csv
-│
+
 
 
 ├── crypto/
@@ -69,6 +78,21 @@ Welcome to my Web Scraping Projects repository. This repository contains various
 │   │       └── crypto_spider.py
 │   ├── scrapy.cfg
 │   └── output.csv
-│
+
+
+
+├── weather_info/
+│   ├── weather_info/
+│   │   ├── __init__.py
+│   │   ├── items.py
+│   │   ├── middlewares.py
+│   │   ├── pipelines.py
+│   │   ├── settings.py
+│   │   └── spiders/
+│   │       ├── __init__.py
+│   │       └── weather_info_spider.py
+│   ├── scrapy.cfg
+│   └── output.csv
 ├── requirements.txt
 └── README.md
+
