@@ -6,10 +6,9 @@
 import scrapy
 
 
-class PhonesItem(scrapy.Item):
+class FlipkartItem(scrapy.Item):
     # define the fields for your item here like:
     name = scrapy.Field()
     price = scrapy.Field()
-    review = scrapy.Field()
 
     pass
